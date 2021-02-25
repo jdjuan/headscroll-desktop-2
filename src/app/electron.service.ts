@@ -30,6 +30,7 @@ export class ElectronService {
       // this.remote = window.require('electron').remote;
 
       this.childProcess = window.require('child_process');
+      this.remote = window.require('electron').remote;
       this.fs = window.require('fs');
     }
   }
